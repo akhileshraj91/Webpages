@@ -2,17 +2,23 @@
 <html>
   <head>
 <style>
+:root{
+  --theme_color: #2929ab;
+  --theme_end:  #0f0f1a;
+    }
+
 #header:link, #header:visited {
-  background-color: #000000;
+  background-color: var(--theme_end);
   color: white;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+
 }
 
 #header:hover, #header:active {
-  background-color: #000000;
+  background-color: var(--theme_color);
 }
 
 #testi{
@@ -33,7 +39,7 @@ div.absolute {
   right: 0;}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Control Engineer | responsive portfolio template</title>
+    <title> Akhilesh Raj</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -49,7 +55,7 @@ div.absolute {
     <!-- animate.css-->
     <link rel="stylesheet" href="vendor/animate.css/animate.css">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/style.black.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
     <!-- Leaflet CSS - For the map-->
@@ -100,7 +106,7 @@ div.absolute {
     <section id="intro" class="about-section">
     <div class="container">  
     <div class="row">
-      <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/araj3.jpg" alt="This is me - IT worker" class="image rounded-circle img-fluid"></div>
+      <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/araj2.jpg" alt="This is me - IT worker" class="image rounded-0 img-fluid"></div>
       <div data-animate="fadeInUp" class="about-section col-lg-6 mx-auto mt-5">
           <header class="text-center">
             <h2 data-animate="fadeInDown" class="title">AKHILESH <strong>RAJ</strong></h2>
@@ -109,6 +115,7 @@ div.absolute {
           <p align="justify">A motivated researcher in the field of <strong>control systems and reinforcement learning </strong> with hands on experience in problem solving - theory and application, using math and <strong>MATLAB</strong>. The knowledge seeker and the team player in me helped gain experience in electronic assembly and <strong>Python</strong> coding.</p>
           <p align="justify">Areas of Interest: <strong>Reinfrocement Learning, Control Systems, Distributed Estimation, Surrogate Modeling, Machine Learning.</strong></p>
           <p align="justify">Project: <strong>Composition of surrogate models.</strong></p>
+          <p align="justify">Positons holding/ held: <strong>Advisory Board Member, <a href="http://bayesian.in/" class="navbar-brand scrollTo"> Bayesian ways.LLP</a> Lead Project Engineer, <a href="https://dropvaults.com/" class="navbar-brand scrollTo"> DropVault Tech. Pvt. Ltd. </a></strong></p>
       </div>
     </div>
     </div>  
@@ -162,26 +169,71 @@ div.absolute {
       </div>
     </section>
     <!-- Service-->
-    <section id="services" class="bg-gradient services-section">
+    <section id="Work Experience" class="bg-gradient services-section">
       <div class="container">
         <header class="text-center">
-          <h2 data-animate="fadeInDown" class="title">Services</h2>
+          <h2 data-animate="fadeInDown" class="title">Bio</h2>
         </header>
         <div class="row services text-center">
           <div data-animate="fadeInUp" class="col-lg-4">
             <div class="icon"><i class="fa fa-search"></i></div>
-            <h3 class="heading mb-3 text-400">Consulting</h3>
-            <p class="text-left description">On on produce colonel pointed. Just four sold need over how any. In to september suspicion determine he prevailed admitting. On adapted an as affixed limited on. Giving cousin warmly things no spring mr be abroad. Relation breeding be as repeated strictly followed margaret. One gravity son brought shyness waiting regular led ham.</p>
+            <h3 class="heading mb-3 text-400">Prjoect Associate</h3>
+            <p class="text-left description">\cventry{March 2021 - July 2021}{Project Associate}{Indian Institute of Science, Bangalore, India}{}{}{
+\begin{itemize}
+    \item Worked on the research aiming at development of an intersection management algorithm in unguarded traffic intersections.
+    \item The non-linear optimization problem formulated by the Control and Network System lab at IISc was simulated and reformulated using an RL approach.
+    \item Parallelising the simulation program in python on multicore processors was an important accomplishment.
+    \item The hardware implementation of the theory was initiated on the m3pi pololu robots using raspberry pi.
+\end{itemize}
+}</p>
           </div>
           <div data-animate="fadeInUp" class="col-lg-4">
             <div class="icon"><i class="fa fa-html5"></i></div>
-            <h3 class="heading mb-3 text-400">HTML coding</h3>
-            <p class="text-left description">Manor we shall merit by chief wound no or would. Oh towards between subject passage sending mention or it. Sight happy do burst fruit to woody begin at. Assurance perpetual he in oh determine as.</p>
+            <h3 class="heading mb-3 text-400">Engineer</h3>
+            <p class="text-left description">\item Worked on creating a functional prototype of a secure package collection system.
+\item Designed the circuit for the prototype and chose the appropriate peripherals for it. 
+\item A Raspberry Pi based prototype model was built by integrating the chosen components. \item The back-end software for the functioning of the prototype was built using Python. 
+\item The main features include:
+\begin{itemize}
+    \item All weather hardware,
+    \item ID based package delivering and monitoring system,
+    \item App support.
+\end{itemize}
+%     \item  Project Designer on a contract basis.
+%     \item Assigned the task to design the circuit and functioning of their target idea.
+%         \begin{itemize}
+%             \item Designed the prototype as per the idea given by the project head.
+%             \item A Raspberry Pi based design was suggested considering future upgrade and add-on.
+%             \item Peripherals like sensors, cameras, relays and switches were chosen after meeting the required specifications.
+%             \item Proper Ingress Protection ratings were chosen for each component.
+%         \end{itemize}
+%     \item Delivered the Design before the contract time and was assigned the task of development.
+%     \begin{itemize}
+%         \item Developed the hardware as designed with the chosen components.
+%         \item Developed the back-end coding in Python for the deliverable.
+%         \item Implemented proper communication protocols for remote access.
+%     \end{itemize}
+    \item The following Python packages were used:
+    \begin{itemize}
+    \item socket (conventional TCPIP)
+    \item socketio (event based  TCPIP)
+    \item asyncio (asynchronous concurrent execution)
+    \item GPIO (Rpi Pin control)
+    \item cv2 (Open Computer Vision)
+    \item aiohttp (WebRTC)
+    \end{itemize}
+\end{itemize}
+}</p>
           </div>
           <div data-animate="fadeInUp" class="col-lg-4">
             <div class="icon"><i class="fa fa-tachometer"></i></div>
-            <h3 class="heading mb-3 text-400">PHP webdelopment</h3>
-            <p class="text-left description">Rooms oh fully taken by worse do. Points afraid but may end law lasted. Was out laughter raptures returned outweigh. Luckily cheered colonel me do we attacks on highest enabled. Tried law yet style child. Bore of true of no be deal.</p>
+            <h3 class="heading mb-3 text-400">Consultancy</h3>
+            <p class="text-left description">Research Consultant}{BAYESIAN WAYS LLP
+}{}{}{
+\begin{itemize}
+\item Developed MATLAB and Python based programs for an optimal event scheduler. 
+\item The initial prototype development was done in MATLAB using GUROBI and MOSEK (licensed cvx solvers).
+\item The solver for the event scheduler(a mixed integer problem), was then developed in Python using CVXPY and OR-TOOLS.</p>
           </div>
         </div>
         <hr data-animate="fadeInUp">
@@ -534,9 +586,9 @@ div.absolute {
             <p class="social"><a href="https://www.facebook.com/akhileshraj91" class="external facebook wow fadeInUp"><i class="fa fa-facebook"></i></a><a href="https://www.facebook.com/akhileshraj91" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-google-plus"></i></a><a href="#" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p>
           </div>
           <!-- /.6-->
-          <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+<!--           <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
             <p>© 2021 Akhilesh Raj. All rights reserved.</p>
-          </div>
+          </div> -->
           <div class="col-12 mt-4">
             <p class="template-bootstrapious">Template by <a href='https://bootstrapious.com/p/bootstrap-carousel'>Bootstrapious</a> & <a href="https://fity.cz/ostrava">Fity</a></p>
             <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
