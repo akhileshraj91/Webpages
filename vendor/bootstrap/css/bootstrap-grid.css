@@ -60,10 +60,20 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin-right: -0px;
+  margin-left: -0px;
+}
+
+/*.row_about_me{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  width: calc(100% / 3);
+  flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
-
+*/
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
