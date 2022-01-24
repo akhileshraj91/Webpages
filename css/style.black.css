@@ -612,7 +612,7 @@ footer.main-footer {
 
 footer.main-footer p.social a {
   margin-left: 10px;
-  color: #000;
+  color: #FFF;
   display: inline-block;
   width: 45px;
   height: 45px;
@@ -623,6 +623,22 @@ footer.main-footer p.social a {
   text-align: center;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+footer.main-footer p.social a.linkedin {
+  background-color: #2867B2;
+}
+
+footer.main-footer p.social a.github {
+  background-color: #171515;
+}
+
+footer.main-footer p.social a.google-scholar {
+  background-color: #FFF;
+}
+
+footer.main-footer p.social a.twitter {
+  background-color: #1DA1F2;
 }
 
 footer.main-footer p.social a.facebook {
