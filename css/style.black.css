@@ -247,6 +247,89 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   background: #419bdd;
 }
 
+
+
+/*
+*
+* =====================
+* ICONS
+* =====================
+*
+*/
+
+/*.main-icon{
+  padding: 60px 0;
+  background: #222;
+}*/
+
+.main-icon p.social a {
+  margin-left: 10px;
+  color: #FFF;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  line-height: 45px;
+  font-size: 1.3rem;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.main-icon p.social a.linkedin {
+  background-color: #2867B2;
+}
+
+.main-icon p.social a.github {
+  background-color: #171515;
+}
+
+.main-icon p.social a.google-scholar {
+  background-color: #FFF;
+}
+
+.main-icon p.social a.twitter {
+  background-color: #1DA1F2;
+}
+
+.main-icon p.social a.facebook {
+  background-color: #4460ae;
+}
+
+.main-icon p.social a.gplus {
+  background-color: #c21f25;
+}
+
+.main-icon p.social a.instagram {
+  background-color: #cd4378;
+}
+
+.main-icon p.social a.email {
+  background-color: #4a7f45;
+}
+
+.main-icon p {
+  margin: 0;
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.9rem;
+}
+
+.main-icon p.template-bootstrapious {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-icon p.template-bootstrapious a {
+  color: #999;
+}
+
+
+
 /*
 *
 * =====================
